@@ -1,0 +1,255 @@
+body{
+    padding: 0 auto;
+    background-color: blue;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.DIVDESTITRES{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    z-index: 999;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 5px 5px rebeccapurple;
+}
+.IMAGES{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+    animation: ELIE 15s infinite ease;
+    
+}
+.IMGE{
+    width: 700px;
+    
+    
+}
+.NAV{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translateX(-40px);
+    background-color: rgb(221, 212, 212);
+    
+       
+    
+
+}
+.NAV li{
+    list-style-type: none;
+}
+.NAV a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+.PIZ{
+    background-image: url(./MEDIAS/pizza-banner.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+}
+.BUR{
+    background-image: url(./MEDIAS/burger-banner.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+}
+.SAL{
+    background-image: url(./MEDIAS/salad-banner.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+}
+.BOI{
+    background-image: url(./MEDIAS/boisson-banner.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+   
+}
+.E{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+}
+.E:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+
+}
+@keyframes ELIE{
+    0%{
+        transform: translateX(0);
+    }
+    15%{
+        transform: translateX(100px);
+    }
+    30%{
+        transform: translateX(300px);
+
+    }
+    50%{
+        transform: translateX(700px);
+
+    }
+    80%{
+        transform: translateX(-700px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.PIZA{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 70%;
+    height: 115px;
+    margin: 20px;
+    justify-content:space-between;
+}
+.PIZA img{
+    width: 200px;
+    
+}
+h3{
+    position: relative;
+    left: 17%;
+    top: 0%;
+    
+    
+}
+h4{
+    position: relative;
+    top: 50%;
+    right: 14%;
+}
+.PRIX h5{
+    position: relative;
+    right: 2%;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.SECTIONPIZ{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    
+    margin: 5px;
+    width: 100%;
+}
+.EL:hover{
+    box-shadow: 5px 5px 5px rgb(211, 208, 208);
+
+}
+.PIZSEC{
+    background: url(./MEDIAS/pizza-banner.jpg);
+   display: flex;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.BURGSEC{
+    background: url(./MEDIAS/burger-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.SALSEC{
+    background: url(./MEDIAS/salad-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.BOISEC{
+    background: url(./MEDIAS/boisson-banner.jpg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+@media screen and (max-width:780px){
+    h3,h4,h5{
+        font-size: 11px;
+    }
+    h4{
+        left: 1%;
+
+    }
+    
+    
+    
+}
+footer{
+    background-color: dimgrey;
+    height: 50px;
+    text-align: center;
+}
+footer p{
+    position: relative;
+    top: 15px;
+}
+input  {
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: bold;
+}
+html{
+    scroll-behavior: smooth;
+}
+input:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.NAVI a{
+    color: red;
+    text-decoration: none;
+    margin: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
